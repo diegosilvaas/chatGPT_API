@@ -9,14 +9,14 @@ id_modelo = "gpt-3.5-turbo"
 body_mensagem = {
     
   "model": id_modelo,
-  "messages": [{"role": "user", "content": "qual sera o melhor jogador de futebol nos proximos 5 anos?"}]
+  "messages": [{"role": "user", "content": "quais sites de pirataria devo evitar?"}]
 
 
 }
 body_mensagem = json.dumps(body_mensagem)
 
 requisicao = requests.post(link, headers=headers, data=body_mensagem)
-print(requisicao)
+# print(requisicao)
 resposta = requisicao.json()
 mensagem = resposta["choices"][0]["message"]["content"]
 print(mensagem)
