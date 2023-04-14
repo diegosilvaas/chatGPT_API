@@ -2,7 +2,9 @@
 <html lang="PT-BR">
 
 
-<?php include 'includes/head.php'; ?>
+<?php include 'includes/head.php'; 
+session_start();
+?>
 
 
 <body>
@@ -12,21 +14,39 @@
       <figcaption class="figure-caption">Uma legenda para a imagem acima.</figcaption>
     </figure>
   </center>
-  <form>
-    <center>
-      <center>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Digite sua pergunta</label>
-          <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="5"></textarea>
-        </div>
-      </center>
-  </form>
-  
-  <div>
-    <button type="submit" class="btn btn-dark">Enviar</button>
-  </div>
-  
 
+
+  <center>
+   
+
+      <form action="action.php" method="post" id="form">
+        <div class="form-group">
+
+          <label for="exampleFormControlTextarea1">Digite sua pergunta</label>
+          <textarea class="form-control form-control-lg" name="question" id="exampleFormControlTextarea1" rows="5"></textarea>
+          <button type="submit" name="btncadastrar" class="btn btn-dark">Enviar</button>
+        </div>
+        </form>
+  </center>
+  
+  <center>
+    <div class="alert alert-success" role="alert">
+      <h4 class="alert-heading"></h4>
+      <p><?php 
+      if(isset($_SESSION['content']))
+      {
+        echo $_SESSION['content'];
+      }
+      ?></p>
+      <hr>
+      <p class="mb-0"></p>
+    </div>
+  </center>
+
+
+  <script>
+
+  </script>
 </body>
 
 </html>
