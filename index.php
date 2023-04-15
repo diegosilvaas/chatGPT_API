@@ -24,6 +24,7 @@ session_start();
 
           <label for="exampleFormControlTextarea1">Digite sua pergunta</label>
           <textarea class="form-control form-control-lg" name="question" id="exampleFormControlTextarea1" rows="5"></textarea>
+          <br>
           <button type="submit" name="btncadastrar" class="btn btn-dark">Enviar</button>
         </div>
         </form>
