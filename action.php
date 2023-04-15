@@ -3,7 +3,7 @@
 session_start();
 
 $apiUrl = "https://api.openai.com/v1/chat/completions";
-$apiToken = "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";
+$apiToken = "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";
 $apiModel = "gpt-3.5-turbo";
 
 
