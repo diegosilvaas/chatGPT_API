@@ -10,12 +10,13 @@ session_start();
 <body>
 <div class="container">
   <center>
-   <br> <figure class="w-50 p-3" class="figure">
-      <img src="img/chatgpt400px.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
-      <figcaption class="figure-caption"></figcaption>
+  <!-- class="w-50 p-3" -->
+   <br> <figure  class="figure">
+      <img src="img/banner1200x225att.png" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
+      <!-- <figcaption class="figure-caption"></figcaption> -->
     </figure>
   </center>
-
+ 
 
   <center>
    
