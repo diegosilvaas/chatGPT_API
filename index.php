@@ -12,7 +12,7 @@ session_start();
   <center>
   <!-- class="w-50 p-3" -->
    <br> <figure  class="figure">
-      <img src="img/banner1200x225att.png" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
+      <img src="img/banner projeto chatgpt.png" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
       <!-- <figcaption class="figure-caption"></figcaption> -->
     </figure>
   </center>
