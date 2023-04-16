@@ -1,10 +1,11 @@
 
 <?php
 session_start();
-
-$apiUrl = "https://api.openai.com/v1/chat/completions";
-$apiToken = "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";
-$apiModel = "gpt-3.5-turbo";
+// // // orientações para adicionar a KEY pois é um projeto com KEY TESTE 
+// // $apiUrl = " "; adicione aqui a url do Create chat completion pode encontrar nesse link: https://platform.openai.com/docs/api-reference/chat
+// // $apiToken = " "; adicione aqui a key API que pode encontrar nesse link: https://platform.openai.com/account/api-keys
+// // $apiModel = "gpt-3.5-turbo";
+// Logo apos ser adicionado as chaves descomentar toda essas linhas para rodar o projeto
 
 
 $question = $_POST['question'];

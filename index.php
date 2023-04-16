@@ -23,10 +23,10 @@ session_start();
  
       <form action="action.php" method="post" id="form">
         <div class="w-100 p-3"  class="form-group">
-
-          <h2><label for="exampleFormControlTextarea1">Digite sua pergunta</label></h2>
+        <font color="white">
+          <h2><label for="exampleFormControlTextarea1">⇩ DIGITE SUA PERGUNTA ⇩</label></h2></font>
           <textarea class="form-control form-control-lg" name="question" id="exampleFormControlTextarea1" rows="5"></textarea>
-          <br><button type="submit" name="btncadastrar" class="btn btn-primary">Enviar</button>
+          <br><button type="submit" name="btncadastrar" class="btn btn-primary">ENVIAR</button>
         </div>
         </form>
   </center>
